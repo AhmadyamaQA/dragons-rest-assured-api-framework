@@ -17,6 +17,7 @@ public class CreateAccountTest extends APITestConfig{
 	private DataGenerator data = new DataGenerator();
 	@Test
 	public void createAccountValidTest() {
+		
 		String validToken = getValidToken(); 
 		RequestSpecification request = RestAssured.given(); 
 		request.contentType(ContentType.JSON);

@@ -8,11 +8,14 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,018</td><td></td><td></td></tr>
+<tr><th colspan="8">Smoke test Suite</th></tr>
+<tr><td><a href="#t0">Tek Insurance API Tests</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,729</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tek.api.sqa.tests.CreateAccountTest</td><td><a href="#m0">createAccountValidTest</a></td><td rowspan="1">1685492885538</td><td rowspan="1">4888</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Smoke test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Tek Insurance API Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tek.api.sqa.tests.SecurityTest</td><td><a href="#m0">testGenerateTokenValidUsername</a></td><td rowspan="1">1685496511986</td><td rowspan="1">4102</td></tr><tr class="passedeven"><td><a href="#m1">testGenerateTokenWihtInValidUsername</a></td><td rowspan="2">1685496516686</td><td rowspan="2">678</td></tr><tr class="passedeven"><td><a href="#m2">testGenerateTokenWihtInValidUsername</a></td></tr><tr class="passedodd"><td rowspan="1">tek.api.sqa.tests.TokenVerifyTest</td><td><a href="#m3">verifyValidToken</a></td><td rowspan="1">1685496517379</td><td rowspan="1">1211</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">tek.api.sqa.tests.CreateAccountTest#createAccountValidTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Tek Insurance API Tests</h2><h3 id="m0">tek.api.sqa.tests.SecurityTest#testGenerateTokenValidUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tek.api.sqa.tests.SecurityTest#testGenerateTokenWihtInValidUsername</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>supervisor</td><td>WrongPassword</td><td>Password Not Matched</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tek.api.sqa.tests.SecurityTest#testGenerateTokenWihtInValidUsername</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>WrongUsername</td><td>tek_supervisor</td><td>User not found</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tek.api.sqa.tests.TokenVerifyTest#verifyValidToken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
