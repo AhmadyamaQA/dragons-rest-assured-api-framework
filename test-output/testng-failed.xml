@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tek.api.sqa.tests.GetAllAccountTest">
+      <class name="tek.api.sqa.tests.CreateAccountTest">
         <methods>
           <include name="setupApiTest"/>
-          <include name="getAllAccountTest"/>
+          <include name="createAccountValidTest"/>
         </methods>
-      </class> <!-- tek.api.sqa.tests.GetAllAccountTest -->
+      </class> <!-- tek.api.sqa.tests.CreateAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
